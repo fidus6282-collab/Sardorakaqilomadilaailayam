@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movies</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <h1><span>M</span>ovies <span>!</span></h1>
+
+    <div class="command-part">
+      <input type="text" placeholder="Enter movie name..." class="search-input">
+
+      <select class="selectCategory">
+        <option value="all">All</option>
+        <option value="drama">Drama</option>
+        <option value="animation">Animation</option>
+        <option value="comedy">Comedy</option>
+        <option value="action">Action</option>
+
+
+      </select>
+
+      <select class="sortSelect">
+        <option value="ABC">A-Z</option>
+        <option value="CBA">Z-A</option>
+        <option value="BIG">Longest</option>
+        <option value="SMALL">Shortest</option>
+        <option value="Year">Newest</option>
+        <option value="Rank">Best rated</option>
+      </select>
+    </div>
+  </nav>
+</header>
+
+<section>
+  <div class="kartochki"></div>
+</section>
+
+<script type="module" src="./script.js"></script>
+</body>
+</html>

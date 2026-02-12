@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1f1f1f;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+}
+
+h1 span {
+  color: #00BFFF;
+}
+
+.command-part {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.command-part input,
+.command-part select,
+.command-part button {
+  padding: 10px 14px;
+  margin: 6px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+}
+
+.command-part input {
+  width: 280px;
+  max-width: 90%;
+}
+
+.command-part select {
+  min-width: 150px;
+}
+
+.command-part button {
+  background-color: #00BFFF;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.command-part button:hover {
+  background-color: #009acd;
+}
+
+.kartochki {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #2e2e2e;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+
+.card img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+}
+
+.card h2 {
+  font-size: 18px;
+  margin: 15px 10px 8px 10px;
+}
+
+.card .type {
+  font-size: 14px;
+  color: #bbbbbb;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.card .long,
+.card .rank {
+  font-size: 14px;
+  color: #dddddd;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.card .rating {
+  color: #ffd700;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.card button {
+  padding: 8px 20px;
+  background-color: #5CB85C;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card button:hover {
+  background-color: #4cae4c;
+}
